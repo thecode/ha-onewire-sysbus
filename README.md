@@ -16,7 +16,7 @@ Each 1-wire component data sheet describes the different properties the componen
 
 ### HACS
 
-The recommend way to install `rpi_gpio` is through [HACS](https://hacs.xyz/).
+The recommend way to install `onewire_sysbus` is through [HACS](https://hacs.xyz/).
 
 ### Manual installation
 
