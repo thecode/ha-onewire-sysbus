@@ -1,0 +1,11 @@
+{
+  "domain": "onewire_sysbus",
+  "name": "1-Wire SysBus",
+  "documentation": "https://www.home-assistant.io/integrations/onewire",
+  "config_flow": true,
+  "requirements": ["pi1wire==0.1.0"],
+  "codeowners": ["@thecode"],
+  "iot_class": "local_polling",
+  "loggers": ["pi1wire"],
+  "version": "2022.6.0"
+}

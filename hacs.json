@@ -1,0 +1,4 @@
+{
+  "name": "Raspberry Pi 1-Wire via sysbus",
+  "homeassistant": "2022.5.0"
+}
