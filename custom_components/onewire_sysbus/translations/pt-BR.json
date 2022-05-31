@@ -1,0 +1,18 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "O dispositivo já está configurado"
+        },
+        "error": {
+            "invalid_path": "Diretório não encontrado."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "mount_dir": "Diretório de montagem"
+                },
+                "title": "Configurar 1-Wire"
+            }
+        }
+    }
+}
