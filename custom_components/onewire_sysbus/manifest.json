@@ -4,7 +4,7 @@
   "documentation": "https://github.com/thecode/ha-onewire-sysbus",
   "issue_tracker": "https://github.com/thecode/ha-onewire-sysbus/issues",
   "config_flow": true,
-  "requirements": ["pi1wire==0.1.0"],
+  "requirements": ["pi1wire==0.2.0"],
   "codeowners": ["@thecode"],
   "iot_class": "local_polling",
   "loggers": ["pi1wire"],
