@@ -85,6 +85,7 @@ Scripts/
 *.swo
 tags
 ctags.tmp
+[._]*.un~
 
 # vagrant stuff
 virtualization/vagrant/setup_done
