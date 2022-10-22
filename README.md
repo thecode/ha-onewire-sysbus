@@ -17,10 +17,14 @@ Each 1-wire component data sheet describes the different properties the componen
 ### HACS
 
 The recommend way to install `onewire_sysbus` is through [HACS](https://hacs.xyz/).
+After installation restart Home Assistant and add the integration:
+Navigate to **Settings** --> **Devices & Services** --> **ADD INTEGRATION** and select the `1-Wire SysBus` integration.
 
 ### Manual installation
 
 Copy the `onewire_sysbus` folder and all of its contents into your Home Assistant's `custom_components` folder. This folder is usually inside your `/config` folder. If you are running Hass.io, use SAMBA to copy the folder over. You may need to create the `custom_components` folder and then copy the `onewire_sysbus` folder and all of its contents into it.
+After installation restart Home Assistant and add the integration:
+Navigate to **Settings** --> **Devices & Services** --> **ADD INTEGRATION** and select the `1-Wire SysBus` integration.
 
 ### Supported sensors
 
@@ -79,6 +83,6 @@ The device IDs begin with `28-`.
 
 ### Entities
 
-Upon startup of the platform, the 1-wire bus is searched for available 1-wire devices creates entites based on the sensor unique id:
+Upon startup of the platform, the 1-wire bus is searched for available 1-wire devices creates entities based on the sensor unique id:
 
 `sensor.28.FF5C68521604_temperature`
