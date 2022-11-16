@@ -69,6 +69,6 @@ The device IDs begin with `28-`.
 
 ### Entities
 
-Upon startup of the platform, the 1-wire bus is searched for available 1-wire devices creates entites based on the sensor unique id:
+Upon startup of the platform, the 1-wire bus is searched for available 1-wire devices creates entities based on the sensor unique id:
 
 `sensor.28.FF5C68521604_temperature`
