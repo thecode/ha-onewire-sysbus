@@ -1,0 +1,18 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Zariadenie je už nakonfigurované"
+        },
+        "error": {
+            "invalid_path": "Adresár nenájdený."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "mount_dir": "Pripojiť adresár"
+                },
+                "title": "Nastaviť 1-Wire"
+            }
+        }
+    }
+}
