@@ -8,5 +8,5 @@
   "issue_tracker": "https://github.com/thecode/ha-onewire-sysbus/issues",
   "loggers": ["pi1wire"],
   "requirements": ["pi1wire==0.2.0"],
-  "version": "2023.2.0"
+  "version": "2024.3.0"
 }
