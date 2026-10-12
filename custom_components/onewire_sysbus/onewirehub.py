@@ -13,7 +13,6 @@ from homeassistant.const import (
     ATTR_MANUFACTURER,
     ATTR_MODEL,
     ATTR_NAME,
-    ATTR_VIA_DEVICE,
 )
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import HomeAssistantError
@@ -71,7 +70,6 @@ class OneWireHub:
                 manufacturer=device_info[ATTR_MANUFACTURER],
                 model=device_info[ATTR_MODEL],
                 name=device_info[ATTR_NAME],
-                via_device=device_info.get(ATTR_VIA_DEVICE),
             )
 
     async def discover_devices(self) -> None:
